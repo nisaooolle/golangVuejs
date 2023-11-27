@@ -1,0 +1,138 @@
+.custom-column {
+    background-color: lightblue;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align:center;
+}
+.custom-center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card{
+    border:none;
+}
+
+.cart {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    max-width: 200px;
+  }
+  
+  .product-image {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .cart {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-title {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.9rem;
+  }
+  
+  .cart-item-name {
+    color: #333;
+  }
+  
+  .cart-item-quantity {
+    font-weight: bold;
+  }
+  
+  .remove-from-cart-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .cart-total {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
